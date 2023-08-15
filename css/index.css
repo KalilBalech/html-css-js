@@ -139,3 +139,50 @@ footer div ul li{
 footer div div p{
     font-size: 20px;
 }
+@media(max-width: 950px){
+    #white-bar a{
+        font-size: 16px;
+    }
+    .saea{
+        display: none;
+    }
+    .logo img{
+        width: 200px;
+    }
+}
+@media(max-width: 768px){
+    #white-bar a{
+        margin-left: 5px;
+    }
+    .acesso-rapido{
+        display: none;
+    }
+}
+@media(max-width: 690px){
+    #white-bar img{
+        display: none;
+    }
+}
+@media(max-width: 520px){
+    .left-side{
+        display: none;
+    }
+    .logo img{
+        display: none;
+    }
+    #white-bar a{
+        margin-left: 0px;
+    }
+    #white-bar{
+        padding: 5px;
+    }
+}
+@media(max-width: 480px){
+    #white-bar a{
+        padding: 2px;
+    }
+
+    #main-image p{
+        font-size: 24px;
+    }
+}
